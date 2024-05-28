@@ -1,0 +1,15 @@
+﻿<Window x:Class="Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="Вход" Height="700" Width="1300">
+    <Grid>
+        <TextBox FontSize="30" HorizontalAlignment="Left" Margin="488,144,0,0" TextWrapping="Wrap" Text="E-mail" VerticalAlignment="Top" Width="270" x:Name="EmailInp" Height="40"/>
+        <PasswordBox FontSize="30" HorizontalAlignment="Left" Margin="488,315,0,0" VerticalAlignment="Top" Width="270" x:Name="PasswordInp" Height="40"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="488,493,0,0" VerticalAlignment="Top" Width="270" Click="Button_Click" Height="45"/>
+
+    </Grid>
+</Window>
